@@ -160,7 +160,7 @@
                         </div>
                         <div style="display:none" id="original-query-{{ queryId }}">
                             <div class="queries-table">
-                                {{ (query.sql ~ ';')|doctrine_replace_query_parameters(query.params)|doctrine_pretty_query(true) }}
+                                {# (query.sql ~ ';')|doctrine_replace_query_parameters(query.params)|doctrine_pretty_query(true) #}
                             </div>
                         </div>
                     </td>
